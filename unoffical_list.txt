@@ -1,0 +1,16 @@
+UNOFFICIAL DEFECT LIST
+
+Format for list:
+
+----------------------------------
+
+Defect name/number:
+
+
+Who's working on it:
+
+
+-----------------------------------
+
+
+(I'm just making this up as I go along)
