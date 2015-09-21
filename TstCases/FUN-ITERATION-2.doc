@@ -1,0 +1,91 @@
+{\rtf1\ansi\ansicpg1252\deff0\uc1
+{\fonttbl
+{\f0\fnil\fcharset0\fprq0\fttruetype Times New Roman;}
+{\f1\fnil\fcharset0\fprq0\fttruetype Liberation Sans;}
+{\f2\fnil\fcharset0\fprq0\fttruetype Courier New;}}
+{\colortbl
+\red0\green0\blue0;
+\red255\green255\blue255;
+\red255\green255\blue255;}
+{\stylesheet
+{\s6\fi-431\li720\sbasedon28\snext28 Contents 1;}
+{\s7\fi-431\li1440\sbasedon28\snext28 Contents 2;}
+{\s1\fi-431\li720 Arrowhead List;}
+{\s27\fi-431\li720\sbasedon28 Lower Roman List;}
+{\s29\tx431\sbasedon20\snext28 Numbered Heading 1;}
+{\s30\tx431\sbasedon21\snext28 Numbered Heading 2;}
+{\s12\fi-431\li720 Diamond List;}
+{\s9\fi-431\li2880\sbasedon28\snext28 Contents 4;}
+{\s8\fi-431\li2160\sbasedon28\snext28 Contents 3;}
+{\s31\tx431\sbasedon22\snext28 Numbered Heading 3;}
+{\s32\fi-431\li720 Numbered List;}
+{\s15\sbasedon28 Endnote Text;}
+{\*\cs14\fs20\super Endnote Reference;}
+{\s4\fi-431\li720 Bullet List;}
+{\s5\tx1584\sbasedon29\snext28 Chapter Heading;}
+{\s35\fi-431\li720 Square List;}
+{\s11\fi-431\li720 Dashed List;}
+{\s22\sb440\sa60\f1\fs24\b\sbasedon28\snext28 Heading 3;}
+{\s37\fi-431\li720 Tick List;}
+{\s24\fi-431\li720 Heart List;}
+{\s40\fi-431\li720\sbasedon32 Upper Roman List;}
+{\s39\fi-431\li720\sbasedon32 Upper Case List;}
+{\s16\fi-288\li288\fs20\sbasedon28 Footnote;}
+{\s19\fi-431\li720 Hand List;}
+{\s18\fs20\sbasedon28 Footnote Text;}
+{\s20\sb440\sa60\f1\fs34\b\sbasedon28\snext28 Heading 1;}
+{\s21\sb440\sa60\f1\fs28\b\sbasedon28\snext28 Heading 2;}
+{\s10\qc\sb240\sa120\f1\fs32\b\sbasedon28\snext28 Contents Header;}
+{\s23\sb440\sa60\f1\fs24\b\sbasedon28\snext28 Heading 4;}
+{\s28\f0\fs24 Normal;}
+{\s26\fi-431\li720\sbasedon32 Lower Case List;}
+{\s2\li1440\ri1440\sa120\sbasedon28 Block Text;}
+{\s33\f2\sbasedon28 Plain Text;}
+{\s34\tx1584\sbasedon29\snext28 Section Heading;}
+{\s25\fi-431\li720 Implies List;}
+{\s3\fi-431\li720 Box List;}
+{\s36\fi-431\li720 Star List;}
+{\*\cs17\fs20\super Footnote Reference;}
+{\s38\fi-431\li720 Triangle List;}
+{\s13\fi-288\li288\sbasedon28 Endnote;}}
+\kerning0\cf0\ftnbj\fet2\ftnstart1\ftnnar\aftnnar\ftnstart1\aftnstart1\aenddoc\revprop3{\*\rdf}{\info\uc1{\author Matthew}}\deftab720\viewkind1\paperw12240\paperh15840\margl1440\margr1440\widowctrl
+\sectd\sbknone\colsx360\pgncont\ltrsect
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ID: FUN-ITERATION-2 }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch TC: This test will determine if the program will prompt the user for input  at each room. It should display 6 choices for input, denoted buy initials.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch PRECONDITIONS: }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The user must launch the program by typing java -jar coffeemaker..jar on the command line, and pressing ENTER. }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Input Values :  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch for each room:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch N  (north) followed by ENTER.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch or }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch S (south) followed by ENTER.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ES: }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 1. launch the program, and wait for user prompt.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 2. Note whether or not the correct prompt is displayed.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 3. Type N and press ENTER.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 4. Repeat steps (2 - 3) 5 times, until tester is in starting room.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 5. Repeat process, in the southbound direction (type S and press Enter) .}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 6. Exit program by typing D then pressing ENTER.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch OV:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch At each room:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch (A description of the room and exits)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch INSTRUCTIONS <N,S,L,I,H,D>}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch After step 6:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch (program should state in a few lines that the user did not collect the right items.)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch You lose!}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch PC:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch After the tester exit the program by pressing (D then ENTER), the program should return to the }{\s28\f0\fs24\lang1033{\*\listtag0}\par}}
