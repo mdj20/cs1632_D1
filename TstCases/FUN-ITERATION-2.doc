@@ -56,7 +56,7 @@
 \pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
 \pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch PRECONDITIONS: }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
 \pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
-\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The user must launch the program by typing java -jar coffeemaker..jar on the command line, and pressing ENTER. }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The user must launch the program by typing java -jar coffeemaker..jar on the command line, and pressing ENTER. \tab }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
 \pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
 \pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Input Values :  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
 \pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch for each room:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
