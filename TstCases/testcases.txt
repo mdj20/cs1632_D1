@@ -1,0 +1,139 @@
+Test cases
+------------------------------------------------------------------------------------------------------
+
+FUN-UNKNOWN-COMMAND - If a player enters a command not specified by FUN-ITERATION, 
+the system shall respond with the phrase "What?".
+
+IDENTIFIER: funUnknownCommandSuccess
+TEST CASE: Enter value not listed as a valid move
+PRECONDITIONS: Start game
+INPUT VALUES: "Q"
+EXECUTION STEPS: Enter "Q"
+OUTPUT VALUES: "What?
+
+  You see a Small room.
+  It has a Quaint sofa.
+  A Magenta door leads North"
+POSTCONDITIONS: Expect to see the input value followed by "What?" and the current room information.
+
+IDENTIFIER: funUnknownCommandFailure
+TEST CASE: Enter value listed as a valid move
+PRECONDITIONS: Start game
+INPUT VALUES: "L"
+EXECUTION STEPS: Enter "L"
+OUTPUT VALUES: "There might be something here...
+  You found some creamy cream!
+  
+  You see a Small room.
+  It has a Quaint sofa.
+  A Magenta door leads North"
+POSTCONDITIONS: Expect to perform look command.
+
+
+FUN-INPUT-CAPS - The system shall be case-insensitive in regards to input values; that is, 
+it shall accept capital and lower-case letters and treat them as equivalent.
+
+IDENTIFIER: funInputCapsSuccess
+TEST CASE: Enter lower-case letter of a valid move
+PRECONDITIONS: Start game
+INPUT VALUES: "l"
+EXECUTION STEPS: Enter "l"
+OUTPUT VALUES: "There might be something here...
+  You found some creamy cream!
+  
+  You see a Small room.
+  It has a Quaint sofa.
+  A Magenta door leads North"
+POSTCONDITIONS: Expect to look in the current room for an item and find out if there was anything in the room or not.
+
+
+FUN-MOVE - The system shall allow a player to move North only if a door exists going North, 
+and South only if a door exists going South.
+
+IDENTIFIER: funMoveNorthSuccess
+TEST CASE: Enter move to go North where door exists
+PRECONDITIONS: Start game
+INPUT VALUES: "N"
+EXECUTION STEPS: Enter "N"
+OUTPUT VALUES: "You see a Funny room.
+It has a Sad record player.
+A Beige door leads North.
+A Massive door leads South."
+POSTCONDITIONS: Player should have moved to the room to the North
+
+IDENTIFIER: funMoveSouthSuccess
+TEST CASE: Enter move to go South where door exists
+PRECONDITIONS: Start game and then already have moved North where a door to the South exists
+INPUT VALUES: "S"
+EXECUTION STEPS: Enter "N"
+Enter "S"
+OUTPUT VALUES: "You see a Small room.
+  It has a Quaint sofa.
+  A Magenta door leads North"
+POSTCONDITIONS: Player should have moved back to the starting room.
+
+
+
+FUN-LOOK - Upon entering "L" for Look, the player shall collect any items in the room and 
+those items will be added to the player's inventory.
+
+IDENTIFIER: funLookSuccess
+TEST CASE: Look into inventory where cream has been collected.
+PRECONDITIONS: Start game and iterate through rooms and have collected cream.
+INPUT VALUES: "I"
+EXECUTION STEPS: Enter "L"
+Enter "I"
+OUTPUT VALUES: "YOU HAVE NO COFFEE!
+You have some fresh cream.
+YOU HAVE NO SUGAR!
+ 
+You see a Small room.
+   It has a Quaint sofa.
+   A Magenta door leads North"
+POSTCONDITIONS: Inventory should show that the user has collected cream and no other items.
+
+
+
+FUN-HELP - Upon entering "H" for Help, the player shall be shown a listing of possible commands 
+and what their effects are.
+
+IDENTIFIER: 
+TEST CASE: Check help menu to view possible views and their effects
+PRECONDITIONS: Start game
+INPUT VALUES: "H"
+EXECUTION STEPS: Enter "H"
+OUTPUT VALUES: Help menu
+POSTCONDITIONS: Player should see a list of possible moves and what their effects are.
+
+
+
+FUN-UNIQ-ROOM - Each room in the house shall have a unique adjective describing it.
+
+IDENTIFIER: funUniqRoomSuccess
+TEST CASE: Iterate through two rooms to the North to see that it has a unique adjective.
+PRECONDITIONS: Start game and move North through two rooms.
+INPUT VALUES: "N"
+EXECUTION STEPS: Enter "N"
+Enter "N"
+OUTPUT VALUES: "You see a Refinanced room.
+It has a Tight pizza.
+A Dead door leads North.
+A Smart door leads South."
+POSTCONDITIONS: Room should have a unique adjective assigned to it.
+
+
+Defects:
+------------------------------------------------------------------------------------------------------
+
+DESCRIPTION: FUN-HELP - Valid move entered prompts "What?"
+SUMMARY: When entering "H", which represents the help menu, an unknown command prompt is listed.
+REPRODUCTION STEPS: Enter "H"
+EXPECTED BEHAVIOR: A list showing a list of possible commands and what their effects are.
+OBSERVED BEHAVIOR: "What?"
+
+DESCRIPTION: FUN-INPUT-CAPS - input case-sensitive rather than case-insensitive
+SUMMARY: Upon entering a valid move, the input should be case-insensitive, but when entering
+"n", which would result in a move North, instead prompts the unknown command error.
+REPRODUCTION STEPS: Enter "n"
+EXPECTED BEHAVIOR: Move to the next room to the North.
+OBSERVED BEHAVIOR: "What?"
